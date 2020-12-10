@@ -1,0 +1,161 @@
+.title {
+	position: absolute;
+	left: 12%;
+	top: 6%;
+	font-family: KC Uppercut;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 280%;
+	line-height: 5%;
+	text-align: center;
+	color: #D75954;
+}
+
+.video {
+    left: 50%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.info {
+	position: absolute;
+	left: 20%;
+	top: 100%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-size: 180%;
+	line-height: 100%;
+	color: #E6E9EA;
+}
+
+.tickets {
+	position: absolute;
+	left: 182%;
+	top: 0.5%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 100%;
+	line-height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+.venue {
+	position: absolute;
+	left: 185%;
+	top: 30%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 100%;
+	line-height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+.artist {
+	position: absolute;
+	left: 185%;
+	top: 60%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 100%;
+	line-height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+.endimg {
+	position: absolute;
+	top: 90%;
+}
+
+/* change screen size*/
+
+@media (max-width: 500px) {
+	.title {
+		position: absolute;
+		left: 2%;
+		top: 1%;
+		font-family: KC Uppercut;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 230%;
+		line-height: 175%;
+		text-align: center;
+		color: #D75954;
+	}
+
+	.video {
+	    left: 10%;
+	    position: absolute;
+	    top: 40%;
+	    transform: translate(5%, 5%);
+	    width: 0%;
+	    height: 1%;
+	}
+
+	.info {
+		position: absolute;
+		left: 20%;
+		top: 120%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-size: 140%;
+		line-height: 100%;
+		color: #E6E9EA;
+	}
+
+	.tickets {
+		position: absolute;
+		left: 30%;
+		top: 140%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 100%;
+		line-height: 100%;
+		text-align: center;
+		color: #FFFFFF;
+		z-index: 1;
+	}
+
+	.venue {
+		position: absolute;
+		left: 30%;
+		top: 170%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 100%;
+		line-height: 100%;
+		text-align: center;
+		color: #FFFFFF;
+		z-index: 1;
+	}
+
+	.artist {
+		position: absolute;
+		left: 30%;
+		top: 200%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 100%;
+		line-height: 100%;
+		text-align: center;
+		color: #FFFFFF;
+		z-index: 1;
+	}
+
+	.endimg {
+		width: 30px;
+		height: 60px;
+	}
+}
