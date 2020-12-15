@@ -1,11 +1,3 @@
-@font-face {
-    font-family: 'kc_uppercutregular';
-    src: url('kcuppercut-webfont.woff2') format('woff2'),
-         url('kcuppercut-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .title {
 	position: absolute;
 	left: 12%;
@@ -82,6 +74,14 @@
 .endimg {
 	position: absolute;
 	top: 90%;
+}
+
+@font-face {
+    font-family: 'kc_uppercutregular';
+    src: url('kcuppercut-webfont.woff2') format('woff2'),
+         url('kcuppercut-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* change screen size*/
