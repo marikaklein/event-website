@@ -2,11 +2,11 @@
 	position: absolute;
 	left: 12%;
 	top: 6%;
-    font-family: 'kc_uppercutregular';
-    src: url('kcuppercut-webfont.woff2') format('woff2'),
+        font-family: 'kc_uppercutregular';
+        src: url('kcuppercut-webfont.woff2') format('woff2'),
          url('kcuppercut-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+        font-weight: normal;
+        font-style: normal;
 	font-size: 280%;
 	line-height: 5%;
 	text-align: center;
