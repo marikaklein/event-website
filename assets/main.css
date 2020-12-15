@@ -1,6 +1,10 @@
 @font-face{ 
 	font-family: KC Uppercut;
-	src: url('kcuppercut-webfont.woff') format('woff')
+	src: url('kcuppercut-webfont.eot');
+	src: url('kcuppercut-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('kcuppercut-webfont.woff') format('woff'),
+	     url('kcuppercut-webfont.ttf') format('truetype'),
+	     url('kcuppercut-webfont.svg#webfont') format('svg');
 }
 
 .title {
