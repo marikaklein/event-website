@@ -76,14 +76,6 @@
 	top: 90%;
 }
 
-@font-face {
-	font-family: KC Uppercut;
-	src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.eot");
-	src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.woff") format("woff"),
-	url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.otf") format("opentype"),
-	url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.svg#filename") format("svg");
-}
-
 /* change screen size*/
 
 @media (max-width: 500px) {
@@ -166,4 +158,20 @@
 		width: 30px;
 		height: 60px;
 	}
+}
+
+@font-face {
+	font-family: KC Uppercut;
+	src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.eot");
+	src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.woff") format("woff"),
+	url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.otf") format("opentype"),
+	url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.svg#filename") format("svg");
+}
+
+@font-face {
+	font-family: Upgrade;
+	src: url("https://marikaklein.github.io/event-website/css/fonts/upgrade-webfont.eot");
+	src: url("https://marikaklein.github.io/event-website/css/fonts/upgrade-webfont.woff") format("woff"),
+	url("https://marikaklein.github.io/event-website/css/fonts/upgrade-webfont.otf") format("opentype"),
+	url("https://marikaklein.github.io/event-website/css/fonts/upgrade-webfont.svg#filename") format("svg");
 }
