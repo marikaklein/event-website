@@ -3,9 +3,12 @@
 	left: 12%;
 	top: 6%;
 	@font-face {
-        font-family: 'kc_uppercutregular';
-        src: url('kcuppercut-webfont.woff2') format('woff2'),
-             url('kcuppercut-webfont.woff') format('woff');
+		font-family: KC Uppercut;
+		src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.eot");
+		src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.woff") format("woff"),
+		url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.otf") format("opentype"),
+		url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.svg#filename") format("svg");
+		}
         font-weight: normal;
         font-style: normal;
 	font-size: 280%;
