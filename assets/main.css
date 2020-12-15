@@ -1,10 +1,9 @@
-@font-face{ 
+@font-face {
 	font-family: KC Uppercut;
-	src: url('kcuppercut-webfont.eot');
-	src: url('kcuppercut-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('kcuppercut-webfont.woff') format('woff'),
-	     url('kcuppercut-webfont.ttf') format('truetype'),
-	     url('kcuppercut-webfont.svg#webfont') format('svg');
+	src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.eot");
+	src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.woff") format("woff"),
+	url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.otf") format("opentype"),
+	url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.svg#filename") format("svg");
 }
 
 .title {
