@@ -2,13 +2,7 @@
 	position: absolute;
 	left: 12%;
 	top: 6%;
-	@font-face {
-		font-family: KC Uppercut;
-		src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.eot");
-		src: url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.woff") format("woff"),
-		url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.otf") format("opentype"),
-		url("https://marikaklein.github.io/event-website/css/fonts/kcuppercut-webfont.svg#filename") format("svg");
-		}
+	font-family: KC Uppercut;
         font-weight: normal;
         font-style: normal;
 	font-size: 280%;
